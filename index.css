@@ -1,6 +1,8 @@
-#CoolTitle{
-    font-family: "Courier";
-    background-color: red;
+#title{
+    font-family: "Georgia";
+    color: black;
+    background-color: cadetblue;
+    text-align: center;
 
 
 }
