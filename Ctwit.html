@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The parental guide to the internet</title>
+</head>
+<link rel="stylesheet" href="index.css"></link>
+<script src="index.js"></script>
+<body>
+
+
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()"  placeholder="Search.." title="Type in a category">
+    <ul id="myMenu" class="button">
+      <li><a href="index.html">Main page</a> </li>
+      <li  ><a href="ABC.html" target="_self" >ABC's of the Internet</a></li>
+      <li ><a href="Butube.html" id="utube">Youtube</a></li>
+      <li ><a href="Ctwit.html"id="inst">Instagram/Twitter</a></li>
+      <li ><a href="Dtwitch.html"id="twitch">Twitch</a></li>
+      <li ><a href="Ereddit.html" id="reddit">Reddit</a></li>
+      <li ><a href= "F4chan.html" id="chan">4chan</a></li>
+      <li ><a href="Gtumblr.html" id="tumb">Tumblr</a></li>
+      <li ><a href="Hfacebook.html"id="face">Facebook</a></li>
+      <li ><a href="Itiktok.html" id="tik">TikTok</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:rgb(0, 195, 255);">
+    <h2>Instagram/Twitter</h2>
+    <p>These two applications are juggernauts when it comes to socialmedia. You can find alot of popular memes and clips in both apps.</p>
+    <img src="data:image/png;base64,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"width="200px"heigth="200px">
+    <p> </p>
+    <p></p>
+    <p></p>
+  </div>
+</div>
+<div class="grid-container">
+  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/en/5/58/Instagram_egg.jpg"height="200px"width="200px"><h1>Egg</h1><p>The egg that got the most likes in all of instagram.</p></div>
+  <div class="grid-item"><img src="https://images.thebrag.com/td/uploads/2020/11/Travis-Scott--768x435.jpg"height="200px"width="400px"><h1>Travis halloween costume</h1><p>Considered to be the worst batman costume of all time.</p></div>
+
+  
+</div>
+
+
+</body>
+</html>
